@@ -7,6 +7,7 @@ const fs = require('fs');
 const helper = require('./include/helpers');
 const magick = require('./include/imagemagick');
 const funia = require('./include/photofunia');
+const prefix = "!";
 
 // discord library
 const Discord = require('discord.js'); 
