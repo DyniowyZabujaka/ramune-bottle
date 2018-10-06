@@ -172,4 +172,4 @@ client.on('message', msg => {
 client.on('error', console.error);
 client.on('warn', console.warn);
 
-client.login( process.env.TOKEN );
+client.login(process.env.BOT_TOKEN);
